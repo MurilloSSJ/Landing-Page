@@ -1,0 +1,48 @@
+/* line 1, ../../../../github/Landing-Page/scss/portfolio.scss */
+.containerPortfolio {
+  min-height: 200vh;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+/* line 8, ../../../../github/Landing-Page/scss/portfolio.scss */
+.titlePortfolio {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+/* line 12, ../../../../github/Landing-Page/scss/portfolio.scss */
+.descrptionPortfolio {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  width: 30%;
+  text-align: center;
+}
+
+/* line 18, ../../../../github/Landing-Page/scss/portfolio.scss */
+.itemPortfolio {
+  width: 25%;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 25, ../../../../github/Landing-Page/scss/portfolio.scss */
+.titleItemPortfolio {
+  text-align: center;
+}
+
+/* line 28, ../../../../github/Landing-Page/scss/portfolio.scss */
+.textItemPortfolio {
+  margin-bottom: 30px;
+}
+
+/* line 31, ../../../../github/Landing-Page/scss/portfolio.scss */
+.flexPortfolio {
+  width: 100%;
+}
+
+/*# sourceMappingURL=portfolio.css.map */
