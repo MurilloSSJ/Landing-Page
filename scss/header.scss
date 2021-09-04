@@ -41,6 +41,9 @@
     align-items: center;
     justify-content: space-around;
 }
+.CTAButton:hover{
+    cursor: pointer;
+}
 @media screen and (max-width: 800px){
     .subContainerDiv{
         font-size: 1.6rem;

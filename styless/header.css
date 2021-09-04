@@ -49,13 +49,18 @@
   justify-content: space-around;
 }
 
+/* line 44, ../../../../github/Landing-Page/scss/header.scss */
+.CTAButton:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 800px) {
-  /* line 45, ../../../../github/Landing-Page/scss/header.scss */
+  /* line 48, ../../../../github/Landing-Page/scss/header.scss */
   .subContainerDiv {
     font-size: 1.6rem;
     text-align: center;
   }
-  /* line 49, ../../../../github/Landing-Page/scss/header.scss */
+  /* line 52, ../../../../github/Landing-Page/scss/header.scss */
   .text-control {
     width: 70%;
     font-size: 1.2rem;
