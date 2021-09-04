@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styless/styless.css">
+
+    <link rel="shortcut icon" href="/imagem/favicon-16x16.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -18,8 +21,8 @@
             <img src="imagem/logo.png" width="64px">
         </div>
         <ul>
-            <li>Serviços</li>
-            <li>Portfolio</li>
+            <a href="#howWork"><li>Serviços</li></a>
+            <a href="#portfolio"><li>Portfolio</li></a>
             <a href="#contato"><li>contato</li></a>
         </ul>
     </div>
@@ -34,7 +37,7 @@
     </div>
 
     <!--O que eu faço?-->
-<div class="flex-row mobile-responsive">
+<div class="flex-row mobile-responsive" id="howWork">
     <div class="containerDiv howHelp">
         <div>
             <h2 class="title-content">Como Posso <span style="color: #386FA4;">ajudar</span> sua empresa?</h2>
@@ -66,26 +69,26 @@
 </div>
 
 <!--PORTFOLIO-->
-<div class="flex-column containerPortfolio">
+<div class="flex-column containerPortfolio" id="portfolio">
     <h2 class="title-content titlePortfolio">Confira o meu <span style="color: #386FA4;">Portfólio</span></h2>
     <p class="descrptionPortfolio">Donec sollicitudin molestie malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada.</p>
     <div class="flex-row flexPortfolio mobile-responsive-portfolio">
         <div class="itemPortfolio">
             <h2 class="subtitle titleItemPortfolio"><span style="color: #388ac7;">Agrocaf</span> UFV</h2>
             <p class="textSkills textItemPortfolio">Donec sollicitudin molestie malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada.</p>
-            <iframe width="100%" height="350" src="https://www.youtube.com/embed/bpOSxM0rNPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img width="100%"  src="imagem/agrocaf.PNG">
         </div>
         <div class="itemPortfolio">
             <h2 class="subtitle titleItemPortfolio"><span style="color: #388ac7;">Ollora</span> Brand</h2>
             <p class="textSkills textItemPortfolio">Donec sollicitudin molestie malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada.</p>
-            <iframe width="100%" height="350" src="https://www.youtube.com/embed/MqwIBIo_Uwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img width="100%"  src="imagem/ollora.PNG">
         </div>
     </div>
     <div class="flex-row flexPortfolio">
         <div class="itemPortfolio">
             <h2 class="subtitle titleItemPortfolio">Próximos <span style="color: #388ac7;">Passos</span></h2>
             <p class="textSkills textItemPortfolio">Donec sollicitudin molestie malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada.</p>
-            <iframe width="100%" height="350" src="https://www.youtube.com/embed/CcFfnLVnqCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <img width="100%" src="imagem/proximos-passos.PNG">
         </div>
     </div>
 </div>
@@ -108,22 +111,22 @@
         </div>
         <div class="flex-column widhtForTwo">
             <h2 class="title-content titleRedesSociais">Siga minhas <span style="color: #388ac7;">Redes Sociais</span></h2>
-            <div class="flex-row" style="margin-top: 40px;">
+            <a href="https://www.instagram.com/murillo_ssj/"><div class="flex-row" style="margin-top: 40px;">
                 <img src="imagem/instagram.png" width="40px">
                 <h3 class="subtitle socialMediaIcon">Instagram</h3>
-            </div>
-            <div class="flex-row" style="margin-top: 40px;">
+            </div></a>
+            <a href="https://api.whatsapp.com/send?phone=5531994166181"><div class="flex-row" style="margin-top: 40px;">
                 <img src="imagem/whatsapp.png" width="40px">
                 <h3 class="subtitle socialMediaIcon">Whatsapp</h3>
-            </div>
-            <div class="flex-row" style="margin-top: 40px;">
+            </div></a>
+            <a href="https://www.linkedin.com/in/murillo-santhiago-334b591b5/"><div class="flex-row" style="margin-top: 40px;">
                 <img src="imagem/linkedin.png" width="40px">
                 <h3 class="subtitle socialMediaIcon">Linkedin</h3>
-            </div>
-            <div class="flex-row" style="margin-top: 40px;">
+            </div></a>
+            <a href="https://github.com/MurilloSSJ"><div class="flex-row" style="margin-top: 40px;">
                 <img src="imagem/github.png" width="40px">
                 <h3 class="subtitle socialMediaIcon">Github</h3>
-            </div>
+            </div></a>
         </div>
     </div>
 </div>
