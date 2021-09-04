@@ -1,0 +1,33 @@
+.containerPortfolio{
+    min-height: 200vh;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.titlePortfolio{
+    font-weight: 600;
+    font-size: 45px;
+}
+.descrptionPortfolio{
+    font-family:"Open Sans", sans-serif;
+    font-size:18px;
+    width: 30%;
+    text-align: center;
+}
+.itemPortfolio{
+    width: 25%;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleItemPortfolio{
+    text-align: center;
+}
+.textItemPortfolio{
+    margin-bottom: 30px;
+}
+.flexPortfolio{
+    width: 100%;
+}

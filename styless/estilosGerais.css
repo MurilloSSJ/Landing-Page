@@ -72,4 +72,10 @@
   margin-top: 15px;
 }
 
+/* line 56, ../../../../github/Landing-Page/scss/estilosGerais.scss */
+.form-control button {
+  width: 100%;
+  opacity: 1;
+}
+
 /*# sourceMappingURL=estilosGerais.css.map */
