@@ -18,14 +18,15 @@
             <img src="imagem/logo.png" width="64px">
         </div>
         <ul>
-            <li>Serviços</li>
-            <li>Portfolio</li>
+            <a href="#howWork"><li>Serviços</li></a>
+            <a href="#portfolio"><li>Portfolio</li></a>
             <a href="#contato"><li>contato</li></a>
         </ul>
     </div>
 
     <!--HEADER-->
     <div class="containerDiv">
+        <div id="particles-js"></div>
         <div class="subContainerDiv">
             <h2>Explore <span style="color: #388ac7;">Novos Universos</span></h2>
                 <p class="text-control">Donec sollicitudin molestie malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada. Nulla quis lorem ut libero malesuada feugiat.</p>
@@ -34,7 +35,7 @@
     </div>
 
     <!--O que eu faço?-->
-<div class="flex-row mobile-responsive">
+<div class="flex-row mobile-responsive" id="howWork">
     <div class="containerDiv howHelp">
         <div>
             <h2 class="title-content">Como Posso <span style="color: #386FA4;">ajudar</span> sua empresa?</h2>
@@ -66,7 +67,7 @@
 </div>
 
 <!--PORTFOLIO-->
-<div class="flex-column containerPortfolio">
+<div class="flex-column containerPortfolio" id="portfolio">
     <h2 class="title-content titlePortfolio">Confira o meu <span style="color: #386FA4;">Portfólio</span></h2>
     <p class="descrptionPortfolio">Donec sollicitudin molestie malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada.</p>
     <div class="flex-row flexPortfolio mobile-responsive-portfolio">
@@ -130,6 +131,7 @@
 
 <!--Scripts-->
 <script src="javascript/jquery-3.6.0.min.js"></script>
+<script src="javascript/particles.js"></script>
 <script src="javascript/index.js"></script>
 </body>
 </html>

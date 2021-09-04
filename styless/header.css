@@ -3,17 +3,31 @@
 .containerDiv {
   min-height: 100vh;
   position: relative;
-  background-image: url("../imagem/galaxy-background.jpg");
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
-/* line 14, ../../../../github/Landing-Page/scss/header.scss */
+/* line 11, ../../../../github/Landing-Page/scss/header.scss */
+#particles-js {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  background-position: 50% 50%;
+  display: block;
+}
+
+/* line 20, ../../../../github/Landing-Page/scss/header.scss */
+canvas {
+  background-position: 50% 50%;
+  width: 100%;
+  min-height: 0vh;
+  display: block;
+}
+
+/* line 26, ../../../../github/Landing-Page/scss/header.scss */
 .subContainerDiv {
   color: white;
   font-weight: 400;
@@ -22,16 +36,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: absolute;
+  top: 40%;
+  margin: auto;
 }
 
-/* line 23, ../../../../github/Landing-Page/scss/header.scss */
+/* line 38, ../../../../github/Landing-Page/scss/header.scss */
 .text-control {
   width: 40%;
   font-size: 1.2rem;
   text-align: justify;
 }
 
-/* line 28, ../../../../github/Landing-Page/scss/header.scss */
+/* line 43, ../../../../github/Landing-Page/scss/header.scss */
 .CTAButton {
   margin-top: 20px;
   padding: 15px 60px;
@@ -49,19 +66,28 @@
   justify-content: space-around;
 }
 
+/* line 59, ../../../../github/Landing-Page/scss/header.scss */
+.CTAButton:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 800px) {
-  /* line 45, ../../../../github/Landing-Page/scss/header.scss */
+  /* line 63, ../../../../github/Landing-Page/scss/header.scss */
   .subContainerDiv {
     font-size: 1.6rem;
     text-align: center;
   }
-  /* line 49, ../../../../github/Landing-Page/scss/header.scss */
+  /* line 67, ../../../../github/Landing-Page/scss/header.scss */
   .text-control {
     width: 70%;
     font-size: 1.2rem;
     text-align: justify;
     margin-top: 35px;
     margin-bottom: 35px;
+  }
+  /* line 74, ../../../../github/Landing-Page/scss/header.scss */
+  canvas {
+    position: relative;
   }
 }
 
