@@ -43,6 +43,29 @@
 /* line 31, ../../../../github/Landing-Page/scss/portfolio.scss */
 .flexPortfolio {
   width: 100%;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+  /* line 36, ../../../../github/Landing-Page/scss/portfolio.scss */
+  .descrptionPortfolio {
+    width: 75%;
+    font-size: 1.2rem;
+  }
+  /* line 40, ../../../../github/Landing-Page/scss/portfolio.scss */
+  .titlePortfolio {
+    font-weight: 400;
+    font-size: 1.8rem;
+  }
+  /* line 44, ../../../../github/Landing-Page/scss/portfolio.scss */
+  .itemPortfolio {
+    width: 100%;
+    padding: 30px 0px;
+  }
+  /* line 48, ../../../../github/Landing-Page/scss/portfolio.scss */
+  .flexPortfolio {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=portfolio.css.map */

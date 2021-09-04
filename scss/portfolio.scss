@@ -30,4 +30,22 @@
 }
 .flexPortfolio{
     width: 100%;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:1000px){
+    .descrptionPortfolio{
+        width: 75%;
+        font-size: 1.2rem;
+    }
+    .titlePortfolio{
+        font-weight: 400;
+        font-size: 1.8rem;
+    }
+    .itemPortfolio{
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .flexPortfolio{
+        width: 90%;
+    }
 }

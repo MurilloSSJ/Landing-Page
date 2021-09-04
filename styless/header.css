@@ -49,4 +49,20 @@
   justify-content: space-around;
 }
 
+@media screen and (max-width: 800px) {
+  /* line 45, ../../../../github/Landing-Page/scss/header.scss */
+  .subContainerDiv {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  /* line 49, ../../../../github/Landing-Page/scss/header.scss */
+  .text-control {
+    width: 70%;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+}
+
 /*# sourceMappingURL=header.css.map */

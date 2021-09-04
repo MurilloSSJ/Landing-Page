@@ -29,4 +29,11 @@
   padding-left: 30px;
 }
 
+@media screen and (max-width: 800px) {
+  /* line 23, ../../../../github/Landing-Page/scss/workTogether.scss */
+  .socialMediaIcon {
+    padding-left: 0px;
+  }
+}
+
 /*# sourceMappingURL=workTogether.css.map */

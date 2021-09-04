@@ -41,4 +41,28 @@
   color: white;
 }
 
+@media screen and (max-width: 800px) {
+  /* line 37, ../../../../github/Landing-Page/scss/navMenu.scss */
+  .mainMenu {
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.719);
+  }
+  /* line 42, ../../../../github/Landing-Page/scss/navMenu.scss */
+  .divLogo {
+    width: 100%;
+  }
+  /* line 45, ../../../../github/Landing-Page/scss/navMenu.scss */
+  .mainMenu ul {
+    width: 100%;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 50, ../../../../github/Landing-Page/scss/navMenu.scss */
+  .mainMenu ul li {
+    margin-bottom: 15px;
+  }
+}
+
 /*# sourceMappingURL=navMenu.css.map */
