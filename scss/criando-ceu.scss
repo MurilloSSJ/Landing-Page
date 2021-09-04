@@ -1,0 +1,23 @@
+$star-color: white;
+$star-size: 3px;
+$star-radius: 50%;
+@function starGenerator($quantidade){
+    $star-shadow:0px 0px white ;
+    $i:0;
+    @while $i <= $quantidade{
+        $widht:random(1920)+px;
+        $heigth:random(1080)+px;
+        $star-shadow: $star-shadow,$widht $heigth white ;
+        $i: $i + 1
+    }
+    @return $star-shadow
+}
+$star-shadow: starGenerator(500);
+.star{
+    width: $star-size;
+    height: $star-size;
+    box-shadow: $star-shadow;
+    position: absolute;
+    z-index:-99;
+    
+}
