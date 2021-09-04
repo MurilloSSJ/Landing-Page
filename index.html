@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styless/index.css">
+    <link rel="stylesheet" href="styless/styless.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -16,14 +16,14 @@
     <div class="mainMenu">
         <ul>
             <li>Serviços</li>
-            <li>Galaxy</li>
+            <a href="#contato"><li>contato</li></a>
         </ul>
     </div>
 
     <!--HEADER-->
     <div class="containerDiv">
         <div class="subContainerDiv">
-            <h2>Explore <span style="color: #388ac7;">Novos Universos</span></h1>
+            <h2>Explore <span style="color: #388ac7;">Novos Universos</span></h2>
                 <p class="text-control">Donec sollicitudin molestie malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Donec sollicitudin molestie malesuada. Nulla quis lorem ut libero malesuada feugiat.</p>
             <button class="CTAButton"><p style="padding-right: 10px;">Decolar</p><img src="imagem/rocket.png" width="24px" height="24px"></button>
         </div>
@@ -60,9 +60,42 @@
     </div>
     <div class="imgWhatHelp"></div>
 </div>
-<!--Redes sociais-->
-<div class="heaven">
+
+<!--Contato-->
+<div class="heaven" id="contato">
     <div class="star"></div>
+    <div class="flex-row flexContactDiv">
+        <div class="flex-column widhtForTwo">
+            <h2 class="title-content titleRedesSociais titleForms">Entre em <span style="color: #388ac7;">contato</span> comigo</h2>
+            <form class="form-control">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Email">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" placeholder="Como gostaria de ser chamado?">
+                <label for="assunto">Assunto</label>
+                <textarea name="assunto" placeholder="Qual o assunto que gostaria de tratar?"></textarea>
+            </form>
+        </div>
+        <div class="flex-column widhtForTwo">
+            <h2 class="title-content titleRedesSociais">Siga minhas <span style="color: #388ac7;">Redes Sociais</span></h2>
+            <div class="flex-row" style="margin-top: 40px;">
+                <img src="imagem/instagram.png" width="40px">
+                <h3 class="subtitle socialMediaIcon">Instagram</h3>
+            </div>
+            <div class="flex-row" style="margin-top: 40px;">
+                <img src="imagem/whatsapp.png" width="40px">
+                <h3 class="subtitle socialMediaIcon">Whatsapp</h3>
+            </div>
+            <div class="flex-row" style="margin-top: 40px;">
+                <img src="imagem/linkedin.png" width="40px">
+                <h3 class="subtitle socialMediaIcon">Linkedin</h3>
+            </div>
+            <div class="flex-row" style="margin-top: 40px;">
+                <img src="imagem/github.png" width="40px">
+                <h3 class="subtitle socialMediaIcon">Github</h3>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!--Scripts-->

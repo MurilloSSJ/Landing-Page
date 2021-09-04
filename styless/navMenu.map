@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "navMenu.css",
+	"sources": [
+		"../scss/navMenu.scss"
+	],
+	"sourcesContent": [
+		".mainMenu{\r\n    top: 0%;\r\n    z-index: 99;\r\n    color: white;\r\n    position: absolute;\r\n    min-height: 20vh;\r\n    width: 100%;\r\n    padding-top: 20px;\r\n}\r\n.mainMenu ul{\r\n    display: flex;\r\n    flex-direction: row;\r\n    list-style:none;\r\n    justify-content: space-around;\r\n    font-size: 1.5rem;\r\n    font-family: 'Open Sans', sans-serif;\r\n    text-transform: uppercase;\r\n    font-weight: 500;\r\n    a{\r\n        text-decoration: none;\r\n        color: white;\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,SAAS,CAAA;EACL,GAAG,EAAE,EAAE;EACP,OAAO,EAAE,EAAE;EACX,KAAK,EAAE,KAAK;EACZ,QAAQ,EAAE,QAAQ;EAClB,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,IAAI;EACX,WAAW,EAAE,IAAI;CACpB;;;AACD,AAAA,SAAS,CAAC,EAAE,CAAA;EACR,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,UAAU,EAAC,IAAI;EACf,eAAe,EAAE,YAAY;EAC7B,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,uBAAuB;EACpC,cAAc,EAAE,SAAS;EACzB,WAAW,EAAE,GAAG;CAKnB;;;AAbD,AASI,SATK,CAAC,EAAE,CASR,CAAC,CAAA;EACG,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,KAAK;CACf"
+}

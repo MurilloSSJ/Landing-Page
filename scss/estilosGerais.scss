@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*GERAL*/
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 60px;
+}
+.widhtForTwo{
+    width: 50%;
+}
+.form-control{
+    text-align: left;
+    input{
+        margin-bottom: 30px;
+        height: 30px;
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-size:16px;
+        margin-top: 15px;
+    }
+    label{
+        font-size: 20px;
+        font-family: "Open Sans", sans-serif;
+        padding-top: 50px;
+        color: white;
+    }
+    textarea{
+        margin-bottom: 30px;
+        padding-top: 20%;
+        height: 150px;
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        font-size:16px;
+        margin-top: 15px;
+    }
+}

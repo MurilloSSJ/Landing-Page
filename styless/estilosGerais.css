@@ -1,0 +1,75 @@
+/* line 1, ../../../../github/Landing-Page/scss/estilosGerais.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*GERAL*/
+/* line 6, ../../../../github/Landing-Page/scss/estilosGerais.scss */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 12, ../../../../github/Landing-Page/scss/estilosGerais.scss */
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 17, ../../../../github/Landing-Page/scss/estilosGerais.scss */
+.space-between {
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 60px;
+}
+
+/* line 22, ../../../../github/Landing-Page/scss/estilosGerais.scss */
+.widhtForTwo {
+  width: 50%;
+}
+
+/* line 25, ../../../../github/Landing-Page/scss/estilosGerais.scss */
+.form-control {
+  text-align: left;
+}
+
+/* line 27, ../../../../github/Landing-Page/scss/estilosGerais.scss */
+.form-control input {
+  margin-bottom: 30px;
+  height: 30px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+/* line 38, ../../../../github/Landing-Page/scss/estilosGerais.scss */
+.form-control label {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 50px;
+  color: white;
+}
+
+/* line 44, ../../../../github/Landing-Page/scss/estilosGerais.scss */
+.form-control textarea {
+  margin-bottom: 30px;
+  padding-top: 20%;
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=estilosGerais.css.map */

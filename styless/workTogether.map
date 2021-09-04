@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "workTogether.css",
+	"sources": [
+		"../scss/workTogether.scss"
+	],
+	"sourcesContent": [
+		".heaven{\r\n    width: 100%;\r\n    min-height: 100vh;\r\n    background:black;\r\n    overflow: hidden;\r\n}\r\n.flexContactDiv{\r\n    align-items:initial;\r\n}\r\n.titleRedesSociais{\r\n    color: white;\r\n    padding-top: 100px;\r\n    text-transform: capitalize;\r\n}\r\n.titleForms{\r\n    margin-bottom: 30px;\r\n}\r\n.socialMediaIcon{\r\n    color: white;\r\n    padding-left: 30px;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,OAAO,CAAA;EACH,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK;EACjB,UAAU,EAAC,KAAK;EAChB,QAAQ,EAAE,MAAM;CACnB;;;AACD,AAAA,eAAe,CAAA;EACX,WAAW,EAAC,OAAO;CACtB;;;AACD,AAAA,kBAAkB,CAAA;EACd,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,UAAU;CAC7B;;;AACD,AAAA,WAAW,CAAA;EACP,aAAa,EAAE,IAAI;CACtB;;;AACD,AAAA,gBAAgB,CAAA;EACZ,KAAK,EAAE,KAAK;EACZ,YAAY,EAAE,IAAI;CACrB"
+}

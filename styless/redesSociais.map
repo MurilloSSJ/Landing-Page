@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "redesSociais.css",
+	"sources": [
+		"../scss/redesSociais.scss"
+	],
+	"sourcesContent": [
+		".heaven{\r\n    width: 100%;\r\n    min-height: 100vh;\r\n    background:black;\r\n    overflow: hidden;\r\n}\r\n.titleRedesSociais{\r\n    color: white;\r\n    padding-top: 100px;\r\n    text-transform: capitalize;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,OAAO,CAAA;EACH,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,KAAK;EACjB,UAAU,EAAC,KAAK;EAChB,QAAQ,EAAE,MAAM;CACnB;;;AACD,AAAA,kBAAkB,CAAA;EACd,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,UAAU;CAC7B"
+}

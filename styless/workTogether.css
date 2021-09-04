@@ -1,0 +1,32 @@
+/* line 1, ../../../../github/Landing-Page/scss/workTogether.scss */
+.heaven {
+  width: 100%;
+  min-height: 100vh;
+  background: black;
+  overflow: hidden;
+}
+
+/* line 7, ../../../../github/Landing-Page/scss/workTogether.scss */
+.flexContactDiv {
+  align-items: initial;
+}
+
+/* line 10, ../../../../github/Landing-Page/scss/workTogether.scss */
+.titleRedesSociais {
+  color: white;
+  padding-top: 100px;
+  text-transform: capitalize;
+}
+
+/* line 15, ../../../../github/Landing-Page/scss/workTogether.scss */
+.titleForms {
+  margin-bottom: 30px;
+}
+
+/* line 18, ../../../../github/Landing-Page/scss/workTogether.scss */
+.socialMediaIcon {
+  color: white;
+  padding-left: 30px;
+}
+
+/*# sourceMappingURL=workTogether.css.map */

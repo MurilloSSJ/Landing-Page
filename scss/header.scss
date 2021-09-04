@@ -1,0 +1,43 @@
+/*HEADER*/
+.containerDiv{
+    min-height: 100vh;
+    position: relative;
+    background-image: url("../imagem/galaxy-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.subContainerDiv{
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text-control{
+    width: 40%;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.CTAButton{
+    margin-top: 20px;
+    padding: 15px 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #386FA4;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}

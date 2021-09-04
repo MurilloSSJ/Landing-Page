@@ -1,0 +1,91 @@
+/*COMO POSSO AJUDAR*/
+/* line 2, ../../../../github/Landing-Page/scss/howHelp.scss */
+.howHelp {
+  width: 50%;
+  background: none;
+  min-height: 100vh;
+  margin: top 15px;
+  flex-direction: column;
+}
+
+/* line 9, ../../../../github/Landing-Page/scss/howHelp.scss */
+.titleDescription {
+  margin: auto;
+  width: 60%;
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  color: #0d1520;
+}
+
+/* line 19, ../../../../github/Landing-Page/scss/howHelp.scss */
+.title-content {
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #0d1520;
+}
+
+/* line 26, ../../../../github/Landing-Page/scss/howHelp.scss */
+.subtitle {
+  margin-top: 10px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: justify;
+  font-family: 'Open Sans', sans-serif;
+  color: #0d1520;
+}
+
+/* line 34, ../../../../github/Landing-Page/scss/howHelp.scss */
+.divIcons {
+  width: 100%;
+  padding: 30px 50px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* line 42, ../../../../github/Landing-Page/scss/howHelp.scss */
+.divSkills {
+  width: 33%;
+}
+
+/* line 45, ../../../../github/Landing-Page/scss/howHelp.scss */
+.textSkills {
+  width: 70%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  padding-top: 10px;
+}
+
+/* line 54, ../../../../github/Landing-Page/scss/howHelp.scss */
+.imgWhatHelp {
+  width: 50%;
+  min-height: 100vh;
+  background-image: url("../imagem/background-whathelp.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 61, ../../../../github/Landing-Page/scss/howHelp.scss */
+.bodyButton {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+/* line 66, ../../../../github/Landing-Page/scss/howHelp.scss */
+.animateButton {
+  position: absolute;
+  left: 50px;
+  bottom: 60px;
+}
+
+/*# sourceMappingURL=howHelp.css.map */

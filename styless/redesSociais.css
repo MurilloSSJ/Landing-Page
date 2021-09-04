@@ -1,0 +1,16 @@
+/* line 1, ../../../../github/Landing-Page/scss/redesSociais.scss */
+.heaven {
+  width: 100%;
+  min-height: 100vh;
+  background: black;
+  overflow: hidden;
+}
+
+/* line 7, ../../../../github/Landing-Page/scss/redesSociais.scss */
+.titleRedesSociais {
+  color: white;
+  padding-top: 100px;
+  text-transform: capitalize;
+}
+
+/*# sourceMappingURL=redesSociais.css.map */

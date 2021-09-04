@@ -16,8 +16,25 @@ $star-shadow: starGenerator(500);
 .star{
     width: $star-size;
     height: $star-size;
+    border-radius: 50%;
     box-shadow: $star-shadow;
-    position: absolute;
     z-index:-99;
-    
+    animation: starAnime 20s linear infinite;
+}
+@keyframes starAnime {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-100vh);
+    }
+}
+.star::after{
+    content:"";
+    position: absolute;
+    top:100vh;
+    width: $star-size;
+    height: $star-size;
+    border-radius: 50%;
+    box-shadow: $star-shadow;
 }
