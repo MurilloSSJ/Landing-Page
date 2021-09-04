@@ -2,6 +2,23 @@
     margin: 0;
     padding: 0;
 }
+/*GERAL*/
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 60px;
+}
 .mainMenu{
     top: 0%;
     z-index: 99;
@@ -29,6 +46,7 @@
     background-image: url("../imagem/galaxy-background.jpg");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -63,4 +81,87 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+
+/*COMO POSSO AJUDAR*/
+.howHelp{
+    width: 50%;
+    background: none;
+    min-height: 100vh;
+    margin: top 15px;
+    flex-direction: column;
+}
+.titleDescription{
+    margin: auto;
+    width: 60%;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #0d1520;
+}
+.title-content{
+    font-weight: 400;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #0d1520;
+}
+.subtitle{
+    margin-top: 10px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    color: #0d1520;
+}
+.divIcons{
+    width: 100%;
+    padding: 30px 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.divSkills{
+    width: 33%;
+}
+.textSkills{
+    width: 70%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    padding-top: 10px;
+}
+.imgWhatHelp{
+    width: 50%;
+    min-height: 100vh;
+    background-image: url("../imagem/background-whathelp.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.bodyButton{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.animateButton{
+    position: absolute;
+    left: 50px;
+    bottom: 60px;
+}
+
+/*Redes Sociais*/
+.heaven{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(0, #120c56, #000000);
+}
+.star{
+    width: 3px;
+	height: 3px;
+	border-radius: 50%;
 }
